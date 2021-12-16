@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: io.cucumber.skeleton.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 8.756 s <<< FAILURE! - in io.cucumber.skeleton.RunCucumberTest
+Tests a page using Selenium WebDriver.Tests a page using Selenium WebDriver - My website can be browsed  Time elapsed: 1.858 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+
+Tests a page using Selenium WebDriver.Tests a page using Selenium WebDriver - My website has a "About Me" section  Time elapsed: 0.453 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Oubiti"}
+  (Session info: chrome=96.0.4664.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'PREDATOR', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32fb7762d756f9f50aa1f9e7e6713281, findElement {using=link text, value=Oubiti}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\victe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55337/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32fb7762d756f9f50aa1f9e7e6713281
+
